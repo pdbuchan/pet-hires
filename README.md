@@ -14,7 +14,7 @@ The PET 4032 project here adapts the same underlying idea to a 40-column CRTC ma
 | `PET-HIRES.D64` | Disk image containing `HIRES2001.PRG`, `H4032ART.PRG`, and `H4032FIT.PRG` in .D64 format |
 | `README.md` | This file |
 
-## PET 2001
+PET 2001
 
 | File | Description |
 |---|---|
@@ -24,11 +24,11 @@ The PET 4032 project here adapts the same underlying idea to a 40-column CRTC ma
 | `pet2001/HIRES2001.png` | Photo of artwork produced by original program |
 | `pet2001/README.md` | Explains its timing, interrupt hook, self-modifying graphics data, and the 72 x 40 display mechanism |
 
-## PET 4032
+PET 4032
 
 Two PET 4032 variants are included:
 
-### H4032ART - Keeps the first eight bands of the historical artwork, so the right side is cropped.
+H4032ART - Keeps the first eight bands of the historical artwork, so the right side is cropped.
 
 | File | Description |
 |---|---|
@@ -37,7 +37,7 @@ Two PET 4032 variants are included:
 | `pet4032/H4032ART.asm` | Annotated disassembly of the machine-code renderer in text format |
 | `pet4032/H4032ART.jpg` | Photo of the original artwork rendered on PET 4032, showing truncation on right side |
 
-### H4032FIT - Adapts the artwork to the narrower eight-band display area so that both outer borders are retained.
+H4032FIT - Adapts the artwork to the narrower eight-band display area so that both outer borders are retained.
 
 | File | Description |
 |---|---|
