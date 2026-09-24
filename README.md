@@ -11,7 +11,7 @@ The PET 4032 project here adapts the same underlying idea to a 40-column CRTC ma
 | File | Description |
 |---|---|
 | `Cursor_Magazine_No_18_March_1980.pdf` | CURSOR Magazine #18 |
-| `PET-HIRES.D64` | Disk image containing `HIRES2001.PRG`, `H4032ART.PRG`, and `H4032FIT.PRG` in .D64 format |
+| `PET-HIRES.D64` | Disk image in .D64 format containing `HIRES2001.PRG`, `H4032ART.PRG`, and `H4032FIT.PRG` |
 | `README.md` | This file |
 
 PET 2001
