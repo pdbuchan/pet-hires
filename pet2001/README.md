@@ -1,3 +1,5 @@
+![HIRES2001 emulator screenshot](HIRES2001.png)
+
 # Commodore PET 2001 “HI-RES” — technical notes
 
 ## Executive summary
@@ -158,5 +160,6 @@ The program works on a PET 2001 but not on a CRTC PET 4032. The routine assumes 
 
 * `HIRES2001.PRG` — historical CURSOR #18 program.
 * `HIRES2001.asm` — instruction-by-instruction annotated disassembly of `$0EF4-$1765`, with cycle counts, scan-line labels, self-modified operand notes, and the visible/dummy write distinction.
+* `HIRES2001.png` - emulator screenshot of the artwork
 * `README.md` — this document.
 
