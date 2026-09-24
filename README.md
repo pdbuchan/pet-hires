@@ -30,14 +30,18 @@ README.md
 
 ## PET 2001
 
-`pet2001/HIRES2001.asm` is a heavily annotated disassembly of the original machine-code renderer. `TECHNICAL_README.md` explains its timing, interrupt hook, self-modifying graphics data, and the 72 x 40 display mechanism.
+`pet2001/HIRES2001.PRG` is the original HI-RES program.
+`pet2001/HIRES2001.asm` is a heavily annotated disassembly of the original machine-code renderer.
+`pet2001/README.md` explains its timing, interrupt hook, self-modifying graphics data, and the 72 x 40 display mechanism.
 
 ## PET 4032
 
-Two 4032 variants are included:
+Two PET 4032 variants are included:
 
 - `H4032ART` keeps the first eight bands of the historical artwork, so the right side is cropped.
 - `H4032FIT` adapts the artwork to the narrower eight-band display area so that both outer borders are retained.
+
+`.PRG` and `.asm` files are provided for each variant. `pet4032/README.md` explains the adaptation to PET 4032.
 
 ## Copyright
 
