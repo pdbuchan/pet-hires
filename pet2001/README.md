@@ -158,5 +158,5 @@ The program works on a PET 2001 but not on a CRTC PET 4032. The routine assumes 
 
 * `HIRES2001.PRG` — historical CURSOR #18 program.
 * `HIRES2001.asm` — instruction-by-instruction annotated disassembly of `$0EF4-$1765`, with cycle counts, scan-line labels, self-modified operand notes, and the visible/dummy write distinction.
-* `TECHNICAL_README.md` — this document.
+* `README.md` — this document.
 

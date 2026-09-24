@@ -12,7 +12,7 @@ The PET 4032 project here adapts the same underlying idea to a 40-column CRTC ma
 pet2001/
   HIRES2001.PRG
   HIRES2001.asm
-  TECHNICAL_README.md
+  README.md
 
 pet4032/
   H4032ART.PRG
@@ -21,7 +21,7 @@ pet4032/
   H4032FIT.PRG
   H4032FIT.asm
   H4032FIT.jpg
-  TECHNICAL_README.md
+  README.md
 
 Cursor_Magazine_No_18_March_1980.pdf
 COPYRIGHT.md

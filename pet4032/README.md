@@ -465,4 +465,4 @@ program preserves the original CURSOR convention for selecting the inverse form.
 - `H4032ART.PRG` / `H4032ART.asm` — cropped-art variant.
 - `H4032FIT.PRG` / `H4032FIT.asm` — fitted-art variant.
 - `H4032ART.jpg` / `H4032FIT.jpg` — photographs of the corresponding display results.
-- `TECHNICAL_README.md` — this combined overview, technical report, and command reference.
+- `README.md` — this combined overview, technical report, and command reference.
