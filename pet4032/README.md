@@ -465,7 +465,14 @@ program preserves the original CURSOR convention for selecting the inverse form.
 
 ## 10. Files in this directory
 
-- `H4032ART.PRG` / `H4032ART.asm` — cropped-art variant.
-- `H4032FIT.PRG` / `H4032FIT.asm` — fitted-art variant.
-- `H4032ART.jpg` / `H4032FIT.jpg` — photographs of the corresponding display results.
-- `README.md` — this combined overview, technical report, and command reference.
+| File | Description |
+|---|---|
+| `pet4032/H4032ART.PRG` | Full program (BASIC and machine-code) displaying the original art work, in .PRG format |
+| `pet4032/H4032ART.pdf` | Listing of the BASIC portion in Adobe Acrobat format |
+| `pet4032/H4032ART.asm` | Annotated disassembly of the machine-code renderer in text format |
+| `pet4032/H4032ART.jpg` | Photo of the original artwork rendered on PET 4032, showing truncation on right side |
+| `pet4032/H4032FIT.PRG` | Full program (BASIC and machine-code) displaying modified art work, in .PRG format |
+| `pet4032/H4032FIT.pdf` | Listing of the BASIC portion in Adobe Acrobat format |
+| `pet4032/H4032FIT.asm` | Annotated disassembly of the machine-code renderer in text format |
+| `pet4032/H4032FIT.jpg` | Photo of the modified artwork rendered on PET 4032, showing it fits in available display region |
+| `pet4032/README.md` | Explains the adaptation to PET 4032 |

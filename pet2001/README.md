@@ -158,8 +158,10 @@ The program works on a PET 2001 but not on a CRTC PET 4032. The routine assumes 
 
 ## Files in this directory
 
-* `HIRES2001.PRG` — historical CURSOR #18 program.
-* `HIRES2001.asm` — instruction-by-instruction annotated disassembly of `$0EF4-$1765`, with cycle counts, scan-line labels, self-modified operand notes, and the visible/dummy write distinction.
-* `HIRES2001.png` - emulator screenshot of the artwork
-* `README.md` — this document.
-
+| File | Description |
+|---|---|
+| `pet2001/HIRES2001.PRG` | The full original HI-RES program (BASIC and machine-code) in .PRG format |
+| `pet2001/HIRES2001.pdf` | Listing of the BASIC portion in Adobe Acrobat format |
+| `pet2001/HIRES2001.asm` | Annotated disassembly of the original machine-code renderer in text format |
+| `pet2001/HIRES2001.png` | Photo of artwork produced by original program |
+| `pet2001/README.md` | Explains its timing, interrupt hook, self-modifying graphics data, and the 72 x 40 display mechanism |

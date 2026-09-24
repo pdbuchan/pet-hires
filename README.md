@@ -6,42 +6,47 @@ The original PET 2001 program changes screen-RAM character codes while the CRT i
 
 The PET 4032 project here adapts the same underlying idea to a 40-column CRTC machine. It uses CRTC vertical-blank status for synchronization and an exactly 50-cycle, eight-band raster kernel, producing a nominal **64 x 40** pseudo-high-resolution area.
 
-## Repository layout
+## Repository Files
 
-```text
-pet2001/
-  HIRES2001.PRG
-  HIRES2001.asm
-  README.md
-
-pet4032/
-  H4032ART.PRG
-  H4032ART.asm
-  H4032ART.jpg
-  H4032FIT.PRG
-  H4032FIT.asm
-  H4032FIT.jpg
-  README.md
-
-Cursor_Magazine_No_18_March_1980.pdf
-COPYRIGHT.md
-README.md
-```
+| File | Description |
+|---|---|
+| `Cursor_Magazine_No_18_March_1980.pdf` | CURSOR Magazine #18 |
+| `PET-HIRES.D64` | Disk image containing `HIRES2001.PRG`, `H4032ART.PRG`, and `H4032FIT.PRG` in .D64 format |
+| `README.md` | This file |
 
 ## PET 2001
 
-`pet2001/HIRES2001.PRG` is the original HI-RES program.
-`pet2001/HIRES2001.asm` is a heavily annotated disassembly of the original machine-code renderer.
-`pet2001/README.md` explains its timing, interrupt hook, self-modifying graphics data, and the 72 x 40 display mechanism.
+| File | Description |
+|---|---|
+| `pet2001/HIRES2001.PRG` | The full original HI-RES program (BASIC and machine-code) in .PRG format |
+| `pet2001/HIRES2001.pdf` | Listing of the BASIC portion in Adobe Acrobat format |
+| `pet2001/HIRES2001.asm` | Annotated disassembly of the original machine-code renderer in text format |
+| `pet2001/HIRES2001.png` | Photo of artwork produced by original program |
+| `pet2001/README.md` | Explains its timing, interrupt hook, self-modifying graphics data, and the 72 x 40 display mechanism |
 
 ## PET 4032
 
 Two PET 4032 variants are included:
 
-- `H4032ART` keeps the first eight bands of the historical artwork, so the right side is cropped.
-- `H4032FIT` adapts the artwork to the narrower eight-band display area so that both outer borders are retained.
+### H4032ART - Keeps the first eight bands of the historical artwork, so the right side is cropped.
 
-`.PRG` and `.asm` files are provided for each variant. `pet4032/README.md` explains the adaptation to PET 4032.
+| File | Description |
+|---|---|
+| `pet4032/H4032ART.PRG` | Full program (BASIC and machine-code) in .PRG format |
+| `pet4032/H4032ART.pdf` | Listing of the BASIC portion in Adobe Acrobat format |
+| `pet4032/H4032ART.asm` | Annotated disassembly of the machine-code renderer in text format |
+| `pet4032/H4032ART.jpg` | Photo of the original artwork rendered on PET 4032, showing truncation on right side |
+
+### H4032FIT - Adapts the artwork to the narrower eight-band display area so that both outer borders are retained.
+
+| File | Description |
+|---|---|
+| `pet4032/H4032FIT.PRG` | Full program (BASIC and machine-code) in .PRG format |
+| `pet4032/H4032FIT.pdf` | Listing of the BASIC portion in Adobe Acrobat format |
+| `pet4032/H4032FIT.asm` | Annotated disassembly of the machine-code renderer in text format |
+| `pet4032/H4032FIT.jpg` | Photo of the modified artwork rendered on PET 4032, showing it fits in available display region |
+
+`pet4032/README.md` explains the adaptation to PET 4032.
 
 ## Copyright
 
