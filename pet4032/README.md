@@ -6,10 +6,12 @@
 
 Two variants of HIRES4032 are supplied:
 
-H4032ART    literal crop of the historical artwork
+1. H4032ART - literal crop of the historical artwork
+
 ![H4032ART - photo of PET 4032 screen](H4032ART.jpg)
 
-H4032FIT    fitted artwork retaining both left and right borders
+2. H4032FIT - fitted artwork retaining both left and right borders
+
 ![H4032FIT - photo of PET 4032 screen](H4032FIT.jpg)
 
 To run one from disk, for example:
