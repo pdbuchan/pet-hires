@@ -1,6 +1,6 @@
 # Commodore PET pseudo-high-resolution graphics
 
-This repository documents and experiments with the unusual raster-timed graphics technique used by the **HI-RES** program published with [**CURSOR Magazine #18 (March 1980)**](Cursor_Magazine_No_18_March_1980.pdf) for the Commodore PET.
+This repository documents and experiments with the unusual raster-timed graphics technique used by the **HI-RES** program published with [**CURSOR Magazine #18 (March 1980)**](Cursor_Magazine_No.18_March_1980.pdf) for the Commodore PET.
 
 The original PET 2001 program changes screen-RAM character codes while the CRT is scanning the display. By selecting different character-ROM rows on successive raster lines, it can construct apparent graphics that do not exist as ordinary PET characters. The original implementation is tightly coupled to the fixed video timing of early, non-CRTC PETs.
 
