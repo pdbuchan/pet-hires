@@ -10,19 +10,19 @@ The PET 4032 project here adapts the same underlying idea to a 40-column CRTC ma
 
 | File | Description |
 |---|---|
-| `Cursor_Magazine_No_18_March_1980.pdf` | CURSOR Magazine #18 |
-| `PET-HIRES.D64` | Disk image in .D64 format containing `HIRES2001.PRG`, `H4032ART.PRG`, and `H4032FIT.PRG` |
+| [`Cursor_Magazine_No_18_March_1980.pdf`](Cursor_Magazine_No_18_March_1980.pdf) | CURSOR Magazine #18 |
+| [`PET-HIRES.D64`](PET-HIRES.D64) | Disk image in .D64 format containing `HIRES2001.PRG`, `H4032ART.PRG`, and `H4032FIT.PRG` |
 | `README.md` | This file |
 
 [PET 2001](pet2001/)
 
 | File | Description |
 |---|---|
-| `pet2001/HIRES2001.PRG` | The full original HI-RES program (BASIC and machine-code) in .PRG format |
-| `pet2001/HIRES2001.pdf` | Listing of the BASIC portion in Adobe Acrobat format |
-| `pet2001/HIRES2001.asm` | Annotated disassembly of the original machine-code renderer in text format |
-| `pet2001/HIRES2001.png` | Photo of artwork produced by original program |
-| `pet2001/README.md` | Explains its timing, interrupt hook, self-modifying graphics data, and the 72 x 40 display mechanism |
+| [`HIRES2001.PRG`](pet2001/HIRES2001.PRG) | The full original HI-RES program (BASIC and machine-code) in .PRG format |
+| [`HIRES2001.pdf`](pet2001/HIRES2001.pdf) | Listing of the BASIC portion in Adobe Acrobat format |
+| [`HIRES2001.asm`](pet2001/HIRES2001.asm) | Annotated disassembly of the original machine-code renderer in text format |
+| [`HIRES2001.png`](pet2001/HIRES2001.png) | Photo of artwork produced by original program |
+| [`README.md`](pet2001/README.md) | Explains its timing, interrupt hook, self-modifying graphics data, and the 72 x 40 display mechanism |
 
 [PET 4032](pet4032/)
 
@@ -32,21 +32,21 @@ H4032ART - Keeps the first eight bands of the historical artwork, so the right s
 
 | File | Description |
 |---|---|
-| `pet4032/H4032ART.PRG` | Full program (BASIC and machine-code) displaying the original art work, in .PRG format |
-| `pet4032/H4032ART.pdf` | Listing of the BASIC portion in Adobe Acrobat format |
-| `pet4032/H4032ART.asm` | Annotated disassembly of the machine-code renderer in text format |
-| `pet4032/H4032ART.jpg` | Photo of the original artwork rendered on PET 4032, showing truncation on right side |
+| [`H4032ART.PRG`](pet4032/H4032ART.PRG) | Full program (BASIC and machine-code) displaying the original art work, in .PRG format |
+| [`H4032ART.pdf`](pet4032/H4032ART.pdf) | Listing of the BASIC portion in Adobe Acrobat format |
+| [`H4032ART.asm`](pet4032/H4032ART.asm) | Annotated disassembly of the machine-code renderer in text format |
+| [`H4032ART.jpg`](pet4032/H4032ART.jpg) | Photo of the original artwork rendered on PET 4032, showing truncation on right side |
 
 H4032FIT - Adapts the artwork to the narrower eight-band display area so that both outer borders are retained.
 
 | File | Description |
 |---|---|
-| `pet4032/H4032FIT.PRG` | Full program (BASIC and machine-code) displaying modified art work, in .PRG format |
-| `pet4032/H4032FIT.pdf` | Listing of the BASIC portion in Adobe Acrobat format |
-| `pet4032/H4032FIT.asm` | Annotated disassembly of the machine-code renderer in text format |
-| `pet4032/H4032FIT.jpg` | Photo of the modified artwork rendered on PET 4032, showing it fits in available display region |
+| [`H4032FIT.PRG`](pet4032/H4032FIT.PRG) | Full program (BASIC and machine-code) displaying modified art work, in .PRG format |
+| [`H4032FIT.pdf`](pet4032/H4032FIT.pdf) | Listing of the BASIC portion in Adobe Acrobat format |
+| [`H4032FIT.asm`](pet4032/H4032FIT.asm) | Annotated disassembly of the machine-code renderer in text format |
+| [`H4032FIT.jpg`](pet4032/H4032FIT.jpg) | Photo of the modified artwork rendered on PET 4032, showing it fits in available display region |
 
-`pet4032/README.md` explains the adaptation to PET 4032.
+[`pet4032/README.md`](pet4032/README.md) explains the adaptation to PET 4032.
 
 ## Copyright
 
