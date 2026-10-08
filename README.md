@@ -14,7 +14,7 @@ The PET 4032 project here adapts the same underlying idea to a 40-column CRTC ma
 | `PET-HIRES.D64` | Disk image in .D64 format containing `HIRES2001.PRG`, `H4032ART.PRG`, and `H4032FIT.PRG` |
 | `README.md` | This file |
 
-PET 2001
+[PET 2001](pet2001/)
 
 | File | Description |
 |---|---|
@@ -24,7 +24,7 @@ PET 2001
 | `pet2001/HIRES2001.png` | Photo of artwork produced by original program |
 | `pet2001/README.md` | Explains its timing, interrupt hook, self-modifying graphics data, and the 72 x 40 display mechanism |
 
-PET 4032
+[PET 4032](pet4032/)
 
 Two PET 4032 variants are included:
 
